@@ -67,7 +67,7 @@ export default function App() {
           ></object>
           <video loop muted preload="auto" autoPlay>
 
-            <source src="src/assets/videos/Artist Animation AI.mp4" />
+            <source src="/src/assets/videos/Artist Animation AI.mp4" />
           </video>
           
         </div>
