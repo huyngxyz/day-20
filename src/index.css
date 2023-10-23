@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'OverusedGrotesk';
+    src: url("./assets/fonts/OverusedGrotesk-Medium.woff2") format("woff2");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'OverusedGrotesk';
+    src: url("./assets/fonts/OverusedGrotesk-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+  }
+}
