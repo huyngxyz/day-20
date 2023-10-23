@@ -114,14 +114,14 @@ export default function App() {
           id="text"
           className="flex mt-10 gap-x-20 items-center px-2 opacity-0"
         >
-          <h1 className="text-7xl font-semibold tracking-tight leading-none text-neutral-800 max-w-xl">
+          <h1 className="text-7xl font-semibold tracking-tight leading-none text-neutral-800 max-w-xl xl:text-8xl xl:max-w-4xl">
             We declutter and streamline your workflow
             <span className="bg-gradient-to-tr from-indigo-600 to-indigo-700 bg-clip-text text-transparent m-0 p-0">
               .
             </span>
           </h1>
           <div className="flex flex-col gap-y-8">
-            <p className=" text-xl text-neutral-600">
+            <p className=" text-xl xl:text-4xl xl:max-w-4xl text-neutral-600">
               Digital workflow has never been easier. We&apos;re the backbone of
               productivity, offering intuitive and highly efficient solutions so
               you can achieve your goals with an ease.
@@ -137,8 +137,8 @@ export default function App() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="28"
+                    height="28"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#fff"
@@ -149,7 +149,7 @@ export default function App() {
                     <path d="M7 17l9.2-9.2M17 17V7H7" />
                   </svg>
                 </motion.span>
-                <span className="relative block p-4 group-hover:-translate-x-14  rounded-lg bg-gradient-to-tr transition-all from-indigo-600 to-indigo-700">
+                <span className="relative block p-4 group-hover:-translate-x-14  rounded-lg bg-gradient-to-tr transition-all from-indigo-600 text-xl to-indigo-700">
                   Start Now
                 </span>
                 <motion.span
@@ -158,8 +158,8 @@ export default function App() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="28"
+                    height="28"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#fff"
@@ -171,7 +171,7 @@ export default function App() {
                   </svg>
                 </motion.span>
               </a>
-              <a className="underline" href="">
+              <a className="underline text-xl" href="">
                 Learn more
               </a>
             </div>
