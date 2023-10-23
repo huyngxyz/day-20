@@ -1,5 +1,6 @@
 import { motion, useAnimate } from "framer-motion";
 import GridBG from "./components/GridBG";
+import video from "./assets/videos/vid.mp4"
 import { useEffect } from "react";
 
 export default function App() {
@@ -67,7 +68,7 @@ export default function App() {
           ></object>
           <video loop muted preload="auto" autoPlay>
 
-            <source src="/src/assets/videos/Artist Animation AI.mp4" />
+            <source src={video} type="video/mp4" />
           </video>
           
         </div>
