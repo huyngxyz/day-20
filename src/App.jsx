@@ -84,8 +84,8 @@ export default function App() {
              Digital workflow has never been easier. We&apos;re the backbone of productivity, offering intuitive and highly efficient solutions so you can achieve your goals with an ease. 
             </p>
             <div className="flex items-center gap-x-6">
-              <a className="flex items-center text-white group" href="">
-                <motion.span layout transition={spring} className="group-hover:order-last block p-4  rounded-lg bg-gradient-to-tr from-indigo-600 to-indigo-700">
+              <a className="flex items-center text-white group relative" href="">
+                <motion.span transition={spring} className="group-hover:invisible group-hover:scale-0 block p-4 transition-all rounded-lg bg-gradient-to-tr from-indigo-600 to-indigo-700">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -100,9 +100,24 @@ export default function App() {
                     <path d="M7 17l9.2-9.2M17 17V7H7" />
                   </svg>
                 </motion.span>
-                <span className="block p-4  rounded-lg bg-gradient-to-tr from-indigo-600 to-indigo-700">
+                <span className="relative block p-4 group-hover:-translate-x-14  rounded-lg bg-gradient-to-tr transition-all from-indigo-600 to-indigo-700">
                   Start Now
                 </span>
+                <motion.span transition={spring} className="group-hover:scale-100 scale-0 -translate-x-14 transition-all absolute p-4 rounded-lg bg-gradient-to-tr from-indigo-600 to-indigo-700 -right-14 top-0 bottom-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#fff"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M7 17l9.2-9.2M17 17V7H7" />
+                  </svg>
+                </motion.span>
               </a>
               <a className="underline" href="">Learn more</a>
             </div>

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+* {
+  /* border: 1px solid red; */
+}
+
   @font-face {
     font-family: 'OverusedGrotesk';
     src: url("./assets/fonts/OverusedGrotesk-Medium.woff2") format("woff2");
