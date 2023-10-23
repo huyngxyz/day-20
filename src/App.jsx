@@ -27,11 +27,10 @@ export default function App() {
       <GridBG />
       <section className="h-screen flex flex-col p-14 bg-transparent">
         <div id="hero-image" className="h-1 relative overflow-hidden rounded-[18px]">
-          <object
-            className="absolute"
-            data="/src/assets/images/Top Left.svg"
-            type=""
-          ></object>
+        <svg className="absolute" width="181" height="222" viewBox="0 0 181 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M131 17.9833C131.009 8.04984 139.064 2.34191e-05 149 2.40733e-05L181 2.80874e-05V3.29188e-06L131 0V6.78741e-05H0V203.336L4.01251e-06 221.319C0.00904117 211.399 8.04229 203.358 17.959 203.336L18 203.336L50 203.336L113 203.336C122.941 203.336 131 195.277 131 185.336V17.9833Z" fill="white"/>
+</svg>
+
           <div className="absolute top-1/2 right-0 -translate-y-1/2">
             <p
               className="absolute flex gap-x-1 items-center top-1/2 -translate-y-1/2
@@ -55,17 +54,15 @@ export default function App() {
               </svg>
               <span className="uppercase font-semibold text-lg">Supaso </span>
             </p>
-            <object
-              className=""
-              data="/src/assets/images/middle.svg"
-              type=""
-            ></object>
+            <svg width="211" height="107" viewBox="0 0 211 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M211 0C211 9.94113 202.941 18 193 18L211 18V0ZM211 18V89L211 107C211 97.0642 202.95 89.0086 193.016 89L193 89H18C8.05888 89 -4.3454e-07 80.9411 0 71L2.3167e-06 36C2.3167e-06 26.0589 8.05888 18 18 18L211 18Z" fill="white"/>
+</svg>
+
           </div>
-          <object
-            className="absolute bottom-0 right-0"
-            data="/src/assets/images/Bottom right.svg"
-            type=""
-          ></object>
+          <svg className="absolute bottom-0 right-0" width="271" height="89" viewBox="0 0 271 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M271 0.00836182C270.995 9.94564 262.938 18 253 18L36 18C26.0589 18 18 26.0589 18 36L18 71L18 71.0127C17.9931 80.948 9.93687 89 0 89L18 89L271 89V18V0.00836182Z" fill="white"/>
+</svg>
+
           <video loop muted preload="auto" autoPlay>
 
             <source src={video} type="video/mp4" />
